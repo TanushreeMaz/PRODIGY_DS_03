@@ -105,24 +105,27 @@ The Bank Marketing dataset was obtained from the UCI Machine Learning Repository
 - Housing and personal loan status impacted customer responses.
 - Decision Tree rules provided clear and interpretable business insights.
 
-PRODIGY_DS_03/                                         
-│                                             
-├── Data/                                          
-│   └── bank.csv                                         
-│                                                                        
-├── Notebook/                                       
-│   └── Bank_Marketing_DecisionTree.ipynb                                  
-|                         
-│                          
-├── Images/                                              
-│   ├── Decision_Tree.png                           
-│   ├── Confusion_Matrix.png                       
-│   ├── Feature_Importance.png                   
-│   └── Subscription_Distribution.png                    
-│                                         
-├── README.md                                 
-│                      
-└── requirements.txt                    
+
+## Project Structure
+
+PRODIGY_DS_03/     
+│
+├── Data/     
+│   └── bank.csv   
+│
+├── Notebook/    
+│   └── Bank_Marketing_DecisionTree.ipynb     
+│
+├── Images/     
+│   ├── Decision_Tree.png    
+│   ├── Confusion_Matrix.png     
+│   ├── Feature_Importance.png     
+│   └── Subscription_Distribution.png     
+│
+├── README.md     
+│ 
+└── requirements.txt        
+                   
 
 
 ## Tools & Technologies
