@@ -48,5 +48,23 @@ The Bank Marketing dataset was obtained from the UCI Machine Learning Repository
 | Missing Values | No |
 | Domain | Banking & Marketing |
 
+## Key Feature Categories
+• Demographic: Age, Job, Marital Status, Education
+• Financial: Balance, Housing Loan, Personal Loan, Credit Default
+• Campaign Information: Contact Type, Month, Duration, Campaign Contacts
+• Previous Marketing Activity: Previous Contacts, Previous Outcome, Days Since Last Contact
+• Target Variable: Whether the client subscribed to a term deposit (Yes/No)
+
+# Bank Marketing Subscription Prediction
+
+[![Dataset](https://img.shields.io/badge/Dataset-UCI%20Repository-orange?style=for-the-badge)](https://archive.ics.uci.edu/dataset/222/bank+marketing)
+[![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)]()
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-F7931E?style=for-the-badge&logo=scikitlearn)]()
+[![Decision Tree](https://img.shields.io/badge/Model-Decision%20Tree-success?style=for-the-badge)]()
+
+
+
+
+
 
 
