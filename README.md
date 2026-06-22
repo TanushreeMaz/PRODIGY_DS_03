@@ -75,16 +75,26 @@ The Bank Marketing dataset was obtained from the UCI Machine Learning Repository
 ### Model Development
 - Train-Test Split
 - Decision Tree Classifier
+
+<img width="1705" height="840" alt="image" src="https://github.com/user-attachments/assets/de7d6a12-eddb-4c2e-9347-f959cf1e03d1" />
+
 - Hyperparameter tuning
 
 ### Model Evaluation
 - Accuracy Score
 - Confusion Matrix
+
+  <img width="508" height="397" alt="image" src="https://github.com/user-attachments/assets/b50457c7-f346-4489-84f6-08b4967368c7" />
+  
 - Classification Report
 
 ### Model Interpretation
 - Feature Importance Analysis
 - Decision Tree Visualization
+
+
+
+
 
 
 ## Model Performance
@@ -108,23 +118,27 @@ The Bank Marketing dataset was obtained from the UCI Machine Learning Repository
 
 ## Project Structure
 
-PRODIGY_DS_03/     
+## Project Structure
+
+```text
+PRODIGY_DS_03/
 │
-├── Data/     
-│   └── bank.csv   
+├── Data/
+│   └── bank.csv
 │
-├── Notebook/    
-│   └── Bank_Marketing_DecisionTree.ipynb     
+├── Notebook/
+│   └── Bank_Marketing_DecisionTree.ipynb
 │
-├── Images/     
-│   ├── Decision_Tree.png    
-│   ├── Confusion_Matrix.png     
-│   ├── Feature_Importance.png     
-│   └── Subscription_Distribution.png     
+├── Images/
+│   ├── Decision_Tree.png
+│   ├── Confusion_Matrix.png
+│   ├── Feature_Importance.png
+│   └── Subscription_Distribution.png
 │
-├── README.md     
-│ 
-└── requirements.txt        
+├── README.md
+│
+└── requirements.txt
+```      
                    
 
 
