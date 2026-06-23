@@ -69,11 +69,11 @@ Feature Importance Analysis
 
 ### Balance Distribution
 
-<img width="584" height="495" alt="image" src="https://github.com/user-attachments/assets/522da422-4909-47b0-8585-573a1c935095" />
+<img width="641" height="488" alt="image" src="https://github.com/user-attachments/assets/90f26e5e-8177-4928-88bf-8eaa8dc337d2" />
 
 ### Loan
-<img width="579" height="383" alt="image" src="https://github.com/user-attachments/assets/34278cd1-d005-4c19-b82c-e6a1869482a8" />
 
+<img width="595" height="388" alt="image" src="https://github.com/user-attachments/assets/5188510b-6a42-4ee3-ad06-7e9bebd37c4d" />
 
 ## Campaign Performance
 
@@ -105,8 +105,6 @@ Feature Importance Analysis
 ### Decision Tree
 
 <img width="1705" height="840" alt="Screenshot 2026-06-22 223803" src="https://github.com/user-attachments/assets/088d233f-70a8-4b22-b2ce-9c4dc52d3bea" />
-
-
 
 
 
