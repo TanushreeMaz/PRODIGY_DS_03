@@ -34,6 +34,89 @@ The objective of this project is to build a Decision Tree Classifier that predic
 
 The Bank Marketing dataset was obtained from the UCI Machine Learning Repository. It contains information collected from direct marketing campaigns conducted by a Portuguese banking institution. The objective is to predict whether a client will subscribe to a term deposit based on demographic, financial, and campaign-related attributes.
 
+
+# Machine Learning Workflow
+
+Data Loading
+      ↓
+Data Cleaning
+      ↓
+Encoding & Preprocessing
+      ↓
+Exploratory Data Analysis
+      ↓
+Feature Engineering
+      ↓
+Decision Tree Training
+      ↓
+Model Evaluation
+      ↓
+Feature Importance Analysis
+
+
+# Exploratory Data Analysis
+
+## Target Distribution
+
+<img width="477" height="388" alt="image" src="https://github.com/user-attachments/assets/0d6b2247-e106-4fba-8da5-92083d851d9f" />
+
+## Customer Demographics
+### Age group
+
+<img width="776" height="488" alt="image" src="https://github.com/user-attachments/assets/1eb0a38f-e6fc-4353-9295-0541c4ae59e5" />
+
+## Financial Behavior
+
+### Balance Distribution
+
+<img width="584" height="495" alt="image" src="https://github.com/user-attachments/assets/522da422-4909-47b0-8585-573a1c935095" />
+
+### Loan
+<img width="579" height="383" alt="image" src="https://github.com/user-attachments/assets/34278cd1-d005-4c19-b82c-e6a1869482a8" />
+
+
+## Campaign Performance
+
+### Contact type
+
+<img width="573" height="450" alt="image" src="https://github.com/user-attachments/assets/c7850d19-b695-4250-b69d-1a288a5ed14a" />
+
+### Month
+
+<img width="857" height="368" alt="image" src="https://github.com/user-attachments/assets/2d048f84-2d24-4375-8a87-0fad4c32ecf3" />
+
+### Previous outcome
+
+<img width="686" height="388" alt="Screenshot 2026-06-23 221454" src="https://github.com/user-attachments/assets/5a7a1b9b-0557-4480-bc21-804c23632dd9" />
+
+### Campaign contacts
+
+<img width="872" height="523" alt="image" src="https://github.com/user-attachments/assets/27f6bf47-6553-473b-b19e-5dacb10b5e98" />
+
+
+## Correlation Heatmap
+
+<img width="738" height="586" alt="image" src="https://github.com/user-attachments/assets/9aa50809-8d03-480d-b32e-d444e539f423" />
+
+
+## Model Insights
+
+### Feature importance
+
+<img width="786" height="495" alt="image" src="https://github.com/user-attachments/assets/656b3c1a-a48e-47ba-acd4-b68abea338fa" />
+
+### Confusion matrix
+
+<img width="469" height="389" alt="image" src="https://github.com/user-attachments/assets/af832961-e450-4065-b310-883e6014d520" />
+
+### Decision Tree
+
+<img width="1705" height="840" alt="Screenshot 2026-06-22 223803" src="https://github.com/user-attachments/assets/088d233f-70a8-4b22-b2ce-9c4dc52d3bea" />
+
+
+
+
+
 ## Dataset Information
 
 | Attribute |	Value |
