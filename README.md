@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/Banner.jpg" width="100%">
+  <img src="Banner.jpg" width="100%">
 </p>
 
 # Bank Marketing Subscription Prediction
@@ -99,7 +99,7 @@ Feature Importance Analysis
 
 ## Target Distribution
 
-<img width="477" height="388" alt="image" src="https://github.com/user-attachments/assets/0d6b2247-e106-4fba-8da5-92083d851d9f" />
+<img width="488" height="394" alt="image" src="https://github.com/user-attachments/assets/e0758851-fa56-4f05-bd8e-df671b3253e0" />
 
 The target variable is imbalanced, with non-subscribers significantly outnumbering subscribers.
 
