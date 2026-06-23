@@ -77,17 +77,10 @@ Feature Importance Analysis
 
 ## Campaign Performance
 
-### Contact type
-
-<img width="573" height="450" alt="image" src="https://github.com/user-attachments/assets/c7850d19-b695-4250-b69d-1a288a5ed14a" />
-
 ### Month
 
 <img width="857" height="368" alt="image" src="https://github.com/user-attachments/assets/2d048f84-2d24-4375-8a87-0fad4c32ecf3" />
 
-### Previous outcome
-
-<img width="686" height="388" alt="Screenshot 2026-06-23 221454" src="https://github.com/user-attachments/assets/5a7a1b9b-0557-4480-bc21-804c23632dd9" />
 
 ### Campaign contacts
 
