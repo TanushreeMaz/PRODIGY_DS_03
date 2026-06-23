@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Banner.jpg" width="100%">
+  <img src="images/Banner.png" width="100%">
 </p>
 
 # Bank Marketing Subscription Prediction
