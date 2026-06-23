@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="images/Banner.jpg" width="100%">
+</p>
 
 # Bank Marketing Subscription Prediction
 
@@ -35,77 +37,39 @@ The objective of this project is to build a Decision Tree Classifier that predic
 The Bank Marketing dataset was obtained from the UCI Machine Learning Repository. It contains information collected from direct marketing campaigns conducted by a Portuguese banking institution. The objective is to predict whether a client will subscribe to a term deposit based on demographic, financial, and campaign-related attributes.
 
 
-# Machine Learning Workflow
+
+## Project Objectives
+
+- Understand customer characteristics influencing term deposit subscriptions
+- Perform exploratory data analysis to identify patterns and trends
+- Preprocess and encode categorical features
+- Build and evaluate a Decision Tree classification model
+- Identify the most influential features affecting subscription decisions
+
+
+# Workflow
 
 Data Loading
       ↓
-Data Cleaning
-      ↓
-Encoding & Preprocessing
+Basic Data Exploration
       ↓
 Exploratory Data Analysis
       ↓
-Feature Engineering
+Data Preprocessing
+      ↓
+Feature Encoding
+      ↓
+Train-Test Split
       ↓
 Decision Tree Training
       ↓
 Model Evaluation
       ↓
+Confusion Matrix Visualization
+      ↓
+Decision Tree Visualization
+      ↓
 Feature Importance Analysis
-
-
-# Exploratory Data Analysis
-
-## Target Distribution
-
-<img width="477" height="388" alt="image" src="https://github.com/user-attachments/assets/0d6b2247-e106-4fba-8da5-92083d851d9f" />
-
-## Customer Demographics
-### Age group
-
-<img width="776" height="488" alt="image" src="https://github.com/user-attachments/assets/1eb0a38f-e6fc-4353-9295-0541c4ae59e5" />
-
-## Financial Behavior
-
-### Balance Distribution
-
-<img width="641" height="488" alt="image" src="https://github.com/user-attachments/assets/90f26e5e-8177-4928-88bf-8eaa8dc337d2" />
-
-### Loan
-
-<img width="595" height="388" alt="image" src="https://github.com/user-attachments/assets/5188510b-6a42-4ee3-ad06-7e9bebd37c4d" />
-
-## Campaign Performance
-
-### Month
-
-<img width="857" height="368" alt="image" src="https://github.com/user-attachments/assets/2d048f84-2d24-4375-8a87-0fad4c32ecf3" />
-
-
-### Campaign contacts
-
-<img width="872" height="523" alt="image" src="https://github.com/user-attachments/assets/27f6bf47-6553-473b-b19e-5dacb10b5e98" />
-
-
-## Correlation Heatmap
-
-<img width="738" height="586" alt="image" src="https://github.com/user-attachments/assets/9aa50809-8d03-480d-b32e-d444e539f423" />
-
-
-## Model Insights
-
-### Feature importance
-
-<img width="786" height="495" alt="image" src="https://github.com/user-attachments/assets/656b3c1a-a48e-47ba-acd4-b68abea338fa" />
-
-### Confusion matrix
-
-<img width="469" height="389" alt="image" src="https://github.com/user-attachments/assets/af832961-e450-4065-b310-883e6014d520" />
-
-### Decision Tree
-
-<img width="1705" height="840" alt="Screenshot 2026-06-22 223803" src="https://github.com/user-attachments/assets/088d233f-70a8-4b22-b2ce-9c4dc52d3bea" />
-
 
 
 ## Dataset Information
@@ -122,6 +86,7 @@ Feature Importance Analysis
 | Missing Values | No |
 | Domain | Banking & Marketing |
 
+
 ## Key Feature Categories
 • Demographic: Age, Job, Marital Status, Education
 • Financial: Balance, Housing Loan, Personal Loan, Credit Default
@@ -129,68 +94,49 @@ Feature Importance Analysis
 • Previous Marketing Activity: Previous Contacts, Previous Outcome, Days Since Last Contact
 • Target Variable: Whether the client subscribed to a term deposit (Yes/No)
 
-# Bank Marketing Subscription Prediction
 
-[![Dataset](https://img.shields.io/badge/Dataset-UCI%20Repository-orange?style=for-the-badge)](https://archive.ics.uci.edu/dataset/222/bank+marketing)
+# Exploratory Data Analysis
 
+## Target Distribution
 
-## Machine Learning Workflow
+<img width="477" height="388" alt="image" src="https://github.com/user-attachments/assets/0d6b2247-e106-4fba-8da5-92083d851d9f" />
 
-### Data Preparation
-- Loaded and explored the dataset
-- Checked data types and missing values
-- Encoded categorical variables
-
-### Exploratory Data Analysis
-- Customer demographics
-- Campaign performance analysis
-- Subscription distribution
-
-### Model Development
-- Train-Test Split
-- Decision Tree Classifier
-
-<img width="1705" height="840" alt="image" src="https://github.com/user-attachments/assets/de7d6a12-eddb-4c2e-9347-f959cf1e03d1" />
-
-- Hyperparameter tuning
-
-### Model Evaluation
-- Accuracy Score
-- Confusion Matrix
-
-  <img width="508" height="397" alt="image" src="https://github.com/user-attachments/assets/b50457c7-f346-4489-84f6-08b4967368c7" />
-  
-- Classification Report
-
-### Model Interpretation
-- Feature Importance Analysis
-- Decision Tree Visualization
+The target variable is imbalanced, with non-subscribers significantly outnumbering subscribers.
 
 
+## Correlation Heatmap
+
+<img width="738" height="586" alt="image" src="https://github.com/user-attachments/assets/9aa50809-8d03-480d-b32e-d444e539f423" />
 
 
+## Model Insights
 
+### Feature importance
 
-## Model Performance
+<img width="786" height="495" alt="image" src="https://github.com/user-attachments/assets/656b3c1a-a48e-47ba-acd4-b68abea338fa" />
 
-| Metric | Value |
-|----------|----------|
-| Accuracy | XX% |
-| Precision | XX% |
-| Recall | XX% |
-| F1 Score | XX% |
+Campaign-related features contributed most to the Decision Tree model's predictions.
+
+### Confusion matrix
+
+<img width="469" height="389" alt="image" src="https://github.com/user-attachments/assets/af832961-e450-4065-b310-883e6014d520" />
+
+The heatmap highlights relationships among numerical variables and helps identify potential predictors.
+
+### Decision Tree
+
+<img width="1705" height="840" alt="Screenshot 2026-06-22 223803" src="https://github.com/user-attachments/assets/088d233f-70a8-4b22-b2ce-9c4dc52d3bea" />
+
 
 
 ## Key Insights
 
-- Previous campaign outcomes strongly influenced subscription decisions.
-- Customers with longer call durations showed higher subscription rates.
-- Certain job categories demonstrated higher acceptance rates.
-- Housing and personal loan status impacted customer responses.
-- Decision Tree rules provided clear and interpretable business insights.
+- Previous campaign success was one of the strongest indicators of future subscription.
+- Customers contacted during specific months showed higher conversion rates.
+- Financial indicators such as account balance influenced subscription behavior.
+- Campaign-related variables ranked among the most important predictors.
+- The Decision Tree model provided interpretable rules for customer targeting.
 
-
-## Project Structure
 
 ## Project Structure
 
@@ -203,17 +149,29 @@ PRODIGY_DS_03/
 ├── Notebook/
 │   └── Bank_Marketing_DecisionTree.ipynb
 │
+├── Reports/
+│   ├── Bank_Marketing_Analysis.pdf
+│
 ├── Images/
-│   ├── Decision_Tree.png
-│   ├── Confusion_Matrix.png
+│   ├── Subscription_Distribution.png
+│   ├── Correlation_Heatmap.png
 │   ├── Feature_Importance.png
-│   └── Subscription_Distribution.png
+│   ├── Confusion_Matrix.png
+│   └── Decision_Tree.png
+│
 │
 ├── README.md
 │
 └── requirements.txt
 ```      
                    
+
+## Detailed Report
+
+A complete analysis including data preprocessing, exploratory data analysis, model development, and business insights is available in:
+
+Bank_Marketing_Analysis.pdf
+
 
 
 ## Tools & Technologies
