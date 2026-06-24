@@ -50,25 +50,25 @@ The Bank Marketing dataset was obtained from the UCI Machine Learning Repository
 # Workflow
 
 Data Loading                           
-      ↓                           
+            ↓                           
 Basic Data Exploration                  
-      ↓        
+            ↓        
 Exploratory Data Analysis               
-      ↓             
+            ↓             
 Data Preprocessing              
-      ↓               
+            ↓               
 Feature Encoding                 
-      ↓                     
+            ↓                     
 Train-Test Split          
-      ↓                  
+            ↓                  
 Decision Tree Training            
-      ↓              
+            ↓              
 Model Evaluation               
-      ↓                
+            ↓                
 Confusion Matrix Visualization          
-      ↓           
+            ↓           
 Decision Tree Visualization              
-      ↓                        
+            ↓                            
 Feature Importance Analysis                   
 
 
