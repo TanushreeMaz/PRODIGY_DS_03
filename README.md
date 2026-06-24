@@ -49,9 +49,9 @@ The Bank Marketing dataset was obtained from the UCI Machine Learning Repository
 
 # Workflow
 
-Data Loading
+Data Loading                           
       ↓
-Basic Data Exploration
+Basic Data Exploration                 
       ↓
 Exploratory Data Analysis
       ↓
